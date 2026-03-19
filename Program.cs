@@ -13,7 +13,7 @@ namespace ConnectingC_andMongoDB
             Console.WriteLine("--- Conectando C# a MongoDB Atlas ---");
 
             // 1. Configuración de la cadena de conexión
-            string connectionString = "mongodb+srv://warboleda5744_db_user:TF8l3azBH19M4iAf@cluster0.2aeshih.mongodb.net/?appName=Cluster0";
+            string connectionString = "mongodb+srv://warboleda5744_db_user:TF8l3azBH19M4iAf@cluster0.2aeshih.mongodb.net/";
 
             // 2. Crear el cliente de MongoDB
             var client = new MongoClient(connectionString);
